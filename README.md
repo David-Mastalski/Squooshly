@@ -4,6 +4,8 @@
 ![TypeScript](https://img.shields.io/badge/typescript-%23007ACC.svg?style=for-the-badge&logo=typescript&logoColor=white)
 ![CSS3](https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white)
 
+You can access the live version of the application here: [Live Demo](https://squooshly.netlify.app/)
+
 ## 🖼️ Features
 
 * **⚡ WebP Conversion** – Effortless conversion of uploaded images to the modern `.webp` format for superior web performance and smaller file sizes.
