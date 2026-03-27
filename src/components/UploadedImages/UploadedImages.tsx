@@ -23,7 +23,7 @@ function UploadedImages({ images }: UploadedImagesProps) {
                 <img src={WebPFormatIcon} alt="WebP" />
               )}
             </div>
-            <p className="title">
+            <p className={styles.title}>
               {formatFileName(file.name, file.type)}
             </p>
           </div>
@@ -41,7 +41,7 @@ function UploadedImages({ images }: UploadedImagesProps) {
           <div className={styles.downloadImageWrapper}>
             {file.status === "converted" && (
               <>
-                <p className={`weight ${styles.weight}`}>{formatFileWeight(file.weight)}</p>
+                <p className={styles.weight}>{formatFileWeight(file.weight)}</p>
                 <button
                   className={styles.downloadImage}
                   disabled={!file.webp}

@@ -61,8 +61,8 @@
 
 .filePreview {
   border-radius: 10px;
-  height: 45px;
-  width: 45px;
+  height: 50px;
+  width: 50px;
   overflow: hidden;
 
   & img {
@@ -74,9 +74,17 @@
 
   @media (min-width: 998px) {
     border-radius: 12px;
-    height: 50px;
-    width: 50px;
   }
+}
+
+.title {
+  color: var(--text-b);
+  font-size: 14px;
+}
+
+.weight {
+  color: var(--text-l);
+  font-size: 14px;
 }
 
 .leftCol {

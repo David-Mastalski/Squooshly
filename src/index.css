@@ -143,21 +143,3 @@ p {
 h1 {
   margin: 0;
 }
-
-.title {
-  color: var(--text-b);
-  font-size: 12px;
-
-  @media (min-width: 998px) {
-    font-size: 14px;
-  }
-}
-
-.weight {
-  color: var(--text-l);
-  font-size: 12px;
-  @media (min-width: 998px) {
-    font-size: 14px;
-    margin-right: 40px;
-  }
-}

@@ -81,19 +81,31 @@
   }
 }
 
+.title {
+  color: var(--text-b);
+  font-size: 12px;
+
+  @media (min-width: 998px) {
+    font-size: 14px;
+  }
+}
+
+.weight {
+  color: var(--text-l);
+  display: none;
+  font-size: 12px;
+  @media (min-width: 998px) {
+    display: block;
+    font-size: 14px;
+    margin-right: 40px;
+  }
+}
+
 .downloadImageWrapper {
   display: flex;
   flex-direction: row;
   justify-content: flex-end;
   align-items: center;
-
-  & .weight {
-    display: none;
-
-    @media (min-width: 998px) {
-      display: block;
-    }
-  }
 }
 
 .downloadImage {

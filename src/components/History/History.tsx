@@ -59,8 +59,8 @@ function History({
                 <img src={img.preview} alt={img.name} loading="lazy" />
               </div>
               <div>
-                <p className={`title`}>{formatFileName(img.name, img.type)}</p>
-                <span className="weight">{formatFileWeight(img.weight)}</span>
+                <p className={styles.title}>{formatFileName(img.name, img.type)}</p>
+                <span className={styles.weight}>{formatFileWeight(img.weight)}</span>
               </div>
             </div>
             <div style={{ position: "relative" }}>
