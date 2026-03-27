@@ -23,7 +23,6 @@ function UploadedImages({ images }: UploadedImagesProps) {
                 <img src={WebPFormatIcon} alt="WebP" />
               )}
             </div>
-            {/* <p className={styles.title}> */}
             <p className="title">
               {formatFileName(file.name, file.type)}
             </p>

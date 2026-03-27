@@ -6,7 +6,7 @@ interface VerifiedIconProps extends React.SVGProps<SVGSVGElement> {
 }
 
 export const VerifiedIcon: React.FC<VerifiedIconProps> = ({ 
-  size = 13, 
+  size = 15, 
   color = "var(--green)", 
   className,
   ...props 

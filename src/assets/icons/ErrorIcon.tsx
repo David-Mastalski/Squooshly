@@ -6,7 +6,7 @@ interface ErrorIconProps extends React.SVGProps<SVGSVGElement> {
 }
 
 export const ErrorIcon: React.FC<ErrorIconProps> = ({ 
-  size = 13, 
+  size = 15, 
   color = 'var(--error-red)', 
   className,
   ...props 

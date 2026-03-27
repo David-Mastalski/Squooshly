@@ -29,7 +29,8 @@
 
 .placeholder {
   color: var(--upload-placeholder);
-  font-size: 12px;
+  font-size: 14px;
+  text-align: center;
   margin-top: 20px;
 
   @media (min-width: 998px) {

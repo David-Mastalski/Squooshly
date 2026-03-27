@@ -33,9 +33,9 @@
 .format {
   background-color: #d6e5f9;
   border-radius: 10px;
-  height: 30px;
-  width: 30px;
-  padding: 5px;
+  height: 32px;
+  width: 32px;
+  padding: 2px;
   flex-shrink: 0;
 
   & img {
@@ -46,6 +46,7 @@
     border-radius: 12px;
     height: 45px;
     width: 45px;
+    padding: 5px;
   }
 }
 
@@ -58,6 +59,7 @@
 }
 
 .status {
+  padding: 0 10px;
   gap: 5px;
   justify-content: center;
 
@@ -70,21 +72,12 @@
 
   & p {
     text-transform: capitalize;
-    font-size: 10px;
+    font-size: 12px;
     font-weight: var(--medium);
 
     @media (min-width: 998px) {
       font-size: 14px;
     }
-  }
-}
-
-.title {
-  color: var(--upload-placeholder);
-  font-size: 10px;
-
-  @media (min-width: 998px) {
-    font-size: 14px;
   }
 }
 
@@ -109,7 +102,7 @@
   border-radius: 8px;
   border: none;
   color: var(--text-b);
-  width: 30px;
+  width: 35px;
   display: flex;
   align-items: center;
   justify-content: center;

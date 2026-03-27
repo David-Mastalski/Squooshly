@@ -7,13 +7,9 @@
 
 .counter {
   color: #909090;
-  font-size: 12px;
+  font-size: 14px;
   font-weight: var(--medium);
   margin-left: 10px;
-
-  @media (min-width: 998px) {
-    font-size: 14px;
-  }
 }
 
 .downloadAll {
@@ -21,8 +17,8 @@
   border: none;
   border-radius: 8px;
   color: #fff;
-  font-size: 12px;
-  padding: 7px 16px;
+  font-size: 14px;
+  padding: 9px 16px;
   transition: background-color .3s ease-in-out;
 
   display: flex;
@@ -34,7 +30,6 @@
   }
 
   @media (min-width: 998px) {
-    font-size: 14px;
-      padding: 10px 20px;
+    padding: 10px 20px;
   }
 }
