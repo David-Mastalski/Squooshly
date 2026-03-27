@@ -1,0 +1,50 @@
+.dropzone {
+  aspect-ratio: 2/1;
+  background-color: var(--dropzone);
+  border-radius: var(--radius);
+  border-width: 1.5px;
+  border-style: dashed;
+  border-color: var(--dropzone-border-dashed);
+  margin-top: 25px;
+  width: 100%;
+  padding: 40px;
+  position: relative;
+  transition: all 0.3 ease-in-out;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  @media (min-width: 998px) {
+    aspect-ratio: 3/1;
+  }
+}
+
+.dropzone-inner {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.placeholder {
+  color: var(--upload-placeholder);
+  font-size: 12px;
+  margin-top: 20px;
+
+  @media (min-width: 998px) {
+    font-size: 16px;
+  }
+}
+
+.inputFile {
+  position: absolute;
+  inset: 0;
+  opacity: 0;
+  cursor: pointer;
+}
+
+.dragging {
+  background-color: var(--dz-active-bg);
+  box-shadow: 0 0 25px var(--dz-active-glow);
+}

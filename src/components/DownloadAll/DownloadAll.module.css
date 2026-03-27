@@ -1,0 +1,40 @@
+.container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.counter {
+  color: #909090;
+  font-size: 12px;
+  font-weight: var(--medium);
+  margin-left: 10px;
+
+  @media (min-width: 998px) {
+    font-size: 14px;
+  }
+}
+
+.downloadAll {
+  background-color: var(--downloadAll);
+  border: none;
+  border-radius: 8px;
+  color: #fff;
+  font-size: 12px;
+  padding: 7px 16px;
+  transition: background-color .3s ease-in-out;
+
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  
+  &:hover {
+    background-color: var(--downloadAll-hover);
+  }
+
+  @media (min-width: 998px) {
+    font-size: 14px;
+      padding: 10px 20px;
+  }
+}

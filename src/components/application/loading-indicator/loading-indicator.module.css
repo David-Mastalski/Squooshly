@@ -1,0 +1,47 @@
+/* Kontener główny */
+.root {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 16px; /* Odpowiada gap-4 */
+}
+
+/* Animacja obrotu */
+.spinner {
+    animation: spin 1s linear infinite;
+}
+
+@keyframes spin {
+    from { transform: rotate(0deg); }
+    to { transform: rotate(360deg); }
+}
+
+/* Rozmiary (spinner) */
+.xs .spinner { width: 15px; height: 15px; }
+.sm .spinner { width: 32px; height: 32px; }
+.md .spinner { width: 48px; height: 48px; }
+.lg .spinner { width: 56px; height: 56px; }
+.xl .spinner { width: 64px; height: 64px; }
+
+/* Kolory SVG */
+.brandPrimary {
+    stroke: var(--loader-spiner); /* Twój kolor brandowy (np. niebieski) */
+}
+
+.bgTertiary {
+    color: var(--loader-spiner-bg); /* Tło dla kółka (jasny szary) */
+}
+
+.textSecondary {
+    color: #64748b; /* Kolor napisu */
+}
+
+/* Rozmiary labela */
+.sm .label, .md .label { font-size: 14px; font-weight: 500; }
+.lg .label, .xl .label { font-size: 18px; font-weight: 500; }
+
+/* Dodatek dla typu dot-circle */
+.dotCircleText {
+    color: #3b82f6;
+}
