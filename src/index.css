@@ -104,6 +104,10 @@
   font-weight: var(--normal);
 }
 
+html {
+  scrollbar-gutter: stable;
+}
+
 button {
   cursor: pointer;
 
