@@ -10,7 +10,7 @@
 * **📐 Smart Resizing** – Automatic downscaling of images exceeding **2000px** (width or height) to maintain optimal dimensions while perfectly preserving aspect ratio.
 * **📦 Local History Management** – Powered by **IndexedDB** for persistent local storage. Your original uploads remain safe and accessible even after refreshing the page or closing the browser.
 * **🔄 Advanced Image History**:
-    * **On-demand conversion**: Process stored original files whenever you need them.
+    * **On-demand conversion**: On-demand conversion for stored original files to webp.
     * **Easy Cleanup**: Remove individual entries or clear your history with a single click.
 * **🛡️ Smart Duplicate Prevention** – Built-in logic to prevent redundant uploads. The system detects if an image is already processed or waiting for download, saving you time and disk space.
 * **🖼️ Rich UI/UX** – Comprehensive file management featuring:
