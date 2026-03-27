@@ -13,6 +13,7 @@
     * **On-demand conversion**: of saved files to webp format
     * **Easy Cleanup**: Remove individual entries or clear your history with a single click.
 * **🛡️ Smart Duplicate Prevention** – Built-in logic to prevent redundant uploads. The system detects if an image is already processed or waiting for download, saving you time and disk space.
+* **Light & Dark Mode**: Easily toggle between themes for a comfortable visual experience in any environment.
 * **🖼️ Rich UI/UX** – Comprehensive file management featuring:
     * Instant image previews (thumbnails).
     * Detailed file information (name, size, and format).
