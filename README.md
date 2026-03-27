@@ -20,6 +20,11 @@
     * Real-time status tracking: `Converting`, `Converted`, or `Error`.
 * **📥 Batch Processing** – Flexibility to download converted images individually or export all processed files at once as a single batch.
 
+## 🔒 Privacy & Performance
+
+* **Client-Side Only**: All image processing happens directly in your browser. No files are ever uploaded to a server, ensuring 100% privacy.
+* **Offline Capability**: Thanks to IndexedDB, the application handles large files efficiently without relying on an internet connection for processing.
+
  ## Installation 
 Clone this repository to your local computer
 ```
