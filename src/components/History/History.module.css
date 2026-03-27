@@ -26,7 +26,7 @@
   border-radius: var(--radius);
   margin-top: 20px;
 
-  @media (min-width: 998px) {
+  /* @media (min-width: 998px) {
     overflow: auto;
     max-height: 500px;
 
@@ -44,7 +44,7 @@
       background-color: var(--scrollbar-t);
       border-radius: 4px;
     }
-  }
+  } */
 }
 
 .file {
