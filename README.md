@@ -6,18 +6,18 @@
 
 ## 🖼️ Funkcjonalności
 
-- Konwersja przesłanych obrazów do formatu **.webp**.  
-- Automatyczne zmniejszanie zdjęć o większej rozdzielczości niż **2000px** w poziomie lub pionie.  
-- **Historia przesłanych zdjęć** przechowywana lokalnie w przeglądarce przy użyciu **IndexedDB**, w oryginalnej formie.  
-- Zdjęcia z historii można:
-  - konwertować do formatu WebP, jeśli nie zostały już wcześniej przekonwertowane,
-  - usuwać z historii.  
-- **Blokada duplikatów**:
-  - Nie można przesyłać ani konwertować zdjęcia, które już zostało przekonwertowane i czeka na pobranie.
-  - Po dodaniu zdjęcia do historii, nie można go ponownie konwertować, jeśli zostało już przekonwertowane.  
-- Miniatury i informacje o plikach (nazwa, rozmiar, format).  
-- Pobieranie pojedynczych lub wszystkich przekonwertowanych plików.  
-- Status konwersji w czasie rzeczywistym: `converting`, `converted`, `error`.
+* **⚡ WebP Conversion** – Effortless conversion of uploaded images to the modern `.webp` format for superior web performance and smaller file sizes.
+* **📐 Smart Resizing** – Automatic downscaling of images exceeding **2000px** (width or height) to maintain optimal dimensions while perfectly preserving aspect ratio.
+* **📦 Local History Management** – Powered by **IndexedDB** for persistent local storage. Your original uploads remain safe and accessible even after refreshing the page or closing the browser.
+* **🔄 Advanced Image History**:
+    * **On-demand conversion**: Process stored original files whenever you need them.
+    * **Easy Cleanup**: Remove individual entries or clear your history with a single click.
+* **🛡️ Smart Duplicate Prevention** – Built-in logic to prevent redundant uploads. The system detects if an image is already processed or waiting for download, saving you time and disk space.
+* **🖼️ Rich UI/UX** – Comprehensive file management featuring:
+    * Instant image previews (thumbnails).
+    * Detailed file information (name, size, and format).
+    * Real-time status tracking: `Converting`, `Converted`, or `Error`.
+* **📥 Batch Processing** – Flexibility to download converted images individually or export all processed files at once as a single batch.
 
  ## Installation 
 Clone this repository to your local computer
